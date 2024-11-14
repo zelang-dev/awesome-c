@@ -639,6 +639,8 @@ to do with managing C memory lives here.
 
 * [Boehm GC][125] - Garbage collection for C. Various
   licenses, all open source.
+* [c-raii][707] - An general RAII implementation for C, with Defer,
+  C11 Atomics/Threads with Thread Pool, and custom malloc/heap allocation. [``MIT``][MIT]
 * [jemalloc][293] - Malloc implementation that emphasizes avoidance of
   fragmentation and scalable concurrency support.
   [``BSD-2-Clause``][BSD-2-Clause]
@@ -1847,4 +1849,4 @@ support for C.
 [704]: https://github.com/taosdata/TDengine
 [705]: https://nappgui.com/
 [706]: https://github.com/armink/EasyLogger
-
+[707]: https://zelang-dev.github.io/c-raii
